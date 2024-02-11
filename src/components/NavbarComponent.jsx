@@ -8,7 +8,7 @@ const NavbarComponent = () => {
   const [changeColor, setChangeColor] = useState(false);
 
   const changeBackgroundColor = () => {
-    if (window.scrollY > 9) {
+    if (window.scrollY > 10) {
       setChangeColor(true);
     } else {
       setChangeColor(false);
